@@ -81,8 +81,8 @@ const Address = () => {
 
 const Payment = () => {
   const [method, setMethod] = useState(false)
-  const dispatch = useDispatch()
-  
+  // const dispatch = useDispatch()
+
   const onSubmit = (e) => {
     e.preventDefault() 
   }

@@ -1,10 +1,9 @@
 import React from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 // import {filterByCategory } from '../../../app/ProductSlice'
 
 const Categories = () => {
     const products = useSelector(state => state.products)
-    // const dispatch = useDispatch()
     return (
         <div className="col-sm-3 border-end">
             <div className="container">

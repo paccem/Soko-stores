@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import useStyles from './styles'
 import { useSelector} from 'react-redux'
-import { Paper, Stepper, Step, StepLabel, Typography, StepContent, CircularProgress, Divider, Button } from '@material-ui/core'
+import { Paper, Stepper, Step, StepLabel, Typography, StepContent } from '@material-ui/core'
 import {getStepContent, getStepsHeader } from './AcctStepContent'
 
 
