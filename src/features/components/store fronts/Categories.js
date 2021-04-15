@@ -3,7 +3,8 @@ import { useSelector } from 'react-redux'
 // import {filterByCategory } from '../../../app/ProductSlice'
 
 const Categories = () => {
-    const products = useSelector(state => state.products)
+    const products = useSelector(state => state.products.ProductList)
+    const electronic =  products.map(product => product.category === 'kids' ? product : '')
     return (
         <div className="col-sm-3 border-end">
             <div className="container">
@@ -11,7 +12,7 @@ const Categories = () => {
                     <div className="nav-link" aria-current="page">Home</div>
                    
                     <div className="nav-link" style={{cursor: 'pointer'}}>
-                        Electronics ({products.length})
+                        Electronics ({electronic.length})
                     </div>
                     
                     <div className="nav-link">Face Masks ()</div>

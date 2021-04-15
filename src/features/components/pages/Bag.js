@@ -19,12 +19,12 @@ const Bag = () => {
                             bag.map(item => {
                                 return (
                                     <div className='col-xs-6 col-md-4'>
-                                    <div className="card mb-3" style={{maxWidth:'350px'}}>
+                                    <div className="card mb-8" style={{maxWidth:'350px'}}>
                                         <div class="row g-0">
-                                            <div class="col-md-4">
-                                                <img src={item.src} alt={item.name} />
+                                            <div class="col-md-6">
+                                                <img src={item.src} alt={item.name} style={{width:'350px', height:'200px'}} />
                                             </div>
-                                            <div class="col-md-8 text-start">
+                                            <div class="col-md- text-start">
                                                 <div class="card-body">
                                                     <p class="card-title">Item Name: <span className='fw-bold text-capitalize'>{item.name}</span></p>
                                                     <p class="card-text">Item Price: {item.price}</p>

@@ -3,7 +3,7 @@ import userList from './userList'
 
 const initialState = {
     userList,
-    activeStep: 2, 
+    activeStep: 0, 
     isLoggedOn: false,
     createUser: '',
     loggedInUsers: [],
