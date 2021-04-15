@@ -13,7 +13,7 @@ const Account = () => {
     
     const classes = useStyles();
     const steps = getStepsHeader();
-    const user = useSelector(state => state.users.isLoggedOn)
+    // const user = useSelector(state => state.users.isLoggedOn)
     const activeStep = useSelector(state => state.users.activeStep)
 
   return (

@@ -22,7 +22,7 @@ const Bag = () => {
                                     <div className="card mb-3" style={{maxWidth:'350px'}}>
                                         <div class="row g-0">
                                             <div class="col-md-4">
-                                                <img src={item.img} alt={item.name} />
+                                                <img src={item.src} alt={item.name} />
                                             </div>
                                             <div class="col-md-8 text-start">
                                                 <div class="card-body">
